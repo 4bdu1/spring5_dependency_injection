@@ -3,3 +3,10 @@ abdul:
     username: JMS Username
     password: somepass
     url: SomeURL
+
+--- #file separator
+spring:
+  profiles: de
+abdul:
+  jms:
+    username: JMS Username $$$$
